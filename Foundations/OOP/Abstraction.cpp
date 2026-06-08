@@ -43,7 +43,7 @@ public:
     // above are all the data members, specific to the child class
     SportsCar(string b, string m){
         this->brand = b;
-        this->model = b;
+        this->model = m;
         isEngineOn = false;
         currentSpeed = 0;
         currentGear = 0;
@@ -111,13 +111,13 @@ int main(){
 /*
 Output:
 Car is started.
-Lamborghini Lamborghini : Gear is shifted to gear : 1
-Lamborghini Lamborghini : Car speed to be accelerated. Current car speed is : 0 km/h
-Lamborghini Lamborghini : Car speed accelerated. Now the car speed is : 20 km/h
-Lamborghini Lamborghini : Gear is shifted to gear : 3
-Lamborghini Lamborghini : Car speed to be accelerated. Current car speed is : 20 km/h
-Lamborghini Lamborghini : Car speed accelerated. Now the car speed is : 40 km/h
-Lamborghini Lamborghini : Car is braking! Now the car speed is : 20 km/h
-Lamborghini Lamborghini : Car engine stopped!
+Lamborghini Revuelto : Gear is shifted to gear : 1
+Lamborghini Revuelto : Car speed to be accelerated. Current car speed is : 0 km/h
+Lamborghini Revuelto : Car speed accelerated. Now the car speed is : 20 km/h
+Lamborghini Revuelto : Gear is shifted to gear : 3
+Lamborghini Revuelto : Car speed to be accelerated. Current car speed is : 20 km/h
+Lamborghini Revuelto : Car speed accelerated. Now the car speed is : 40 km/h
+Lamborghini Revuelto : Car is braking! Now the car speed is : 20 km/h
+Lamborghini Revuelto : Car engine stopped!
 Turn it on to use the car again.
 */
